@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{title}}</title>
+		<link href="../content/css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				{{#nav}}
+				<li><a href="{{link}}">{{label}}</a></li>
+				{{/nav}}
+			</ul>
+		</nav>
+		<main>
+			<h1>{{title}}</h1> 
+			{{{body}}}
+		</main>
+		</body>
+</html>
